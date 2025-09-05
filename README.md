@@ -19,7 +19,8 @@
 - Node.js 14+ (用于Appium)
 - Java 8+ (用于Appium和Allure)
 - Android SDK (Android测试)
-- Xcode (iOS测试，仅Mac)
+- Appium-inspector 
+- appium server
 
 ## 🛠️ 安装指南
 
