@@ -6,10 +6,10 @@ appium:
   timeout: 30
 devices:
   android:
-#    app: /data/app/com.weijingling.whale-1/base.apk   #修改为自己的被测应用路径
+#    app: /data/app/com.weijl.w-1/base.apk   #修改为自己的被测应用路径
     app: null  # 使用已安装的应用
-    appActivity: com.weijl.whale/io.dcloud.PandoraEntryActivity  # 修改为自己的启动Activity
-    appPackage: com.weijl.whale    # 修改为自己的应用包名
+    appActivity: com.weijl.wh/io.dcloud.PandoraEntryActivity  # 修改为自己的启动Activity
+    appPackage: com.weijl.wh    # 修改为自己的应用包名
     automationName: UiAutomator2
     deviceName: 127.0.0.1:21543  # 这里是手机设备名字，通过adb devices命令可以查看，修改为自己的
     fullReset: false
