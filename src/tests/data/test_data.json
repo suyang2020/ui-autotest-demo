@@ -1,0 +1,75 @@
+{
+  "login_users": {
+    "valid_users": [
+      {
+        "username": "testuser",
+        "password": "test123",
+        "expected": "success",
+        "role": "user"
+      },
+      {
+        "username": "admin",
+        "password": "admin123",
+        "expected": "success",
+        "role": "admin"
+      },
+      {
+        "username": "guest",
+        "password": "guest123",
+        "expected": "success",
+        "role": "guest"
+      }
+    ],
+    "invalid_users": [
+      {
+        "username": "invalid_user",
+        "password": "invalid_password",
+        "expected": "fail",
+        "error_type": "invalid_credentials"
+      },
+      {
+        "username": "",
+        "password": "test123",
+        "expected": "fail",
+        "error_type": "empty_username"
+      },
+      {
+        "username": "testuser",
+        "password": "",
+        "expected": "fail",
+        "error_type": "empty_password"
+      },
+      {
+        "username": "",
+        "password": "",
+        "expected": "fail",
+        "error_type": "empty_both"
+      }
+    ]
+  },
+  "search_keywords": [
+    "手机",
+    "电脑",
+    "耳机",
+    "测试商品",
+    "iPhone",
+    "MacBook",
+    "特殊字符!@#$%",
+    "数字123456",
+    "中英混合Product"
+  ],
+  "categories": [
+    "电子产品",
+    "服装鞋帽",
+    "家居用品",
+    "图书音像",
+    "运动户外",
+    "美妆个护"
+  ],
+  "performance_config": {
+    "max_login_time": 5.0,
+    "max_page_load_time": 10.0,
+    "max_search_time": 3.0,
+    "max_navigation_time": 2.0
+  }
+}

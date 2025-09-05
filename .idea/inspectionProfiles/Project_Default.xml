@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="llama-index-core" />
+          <option value="pillow" />
+          <option value="python-pptx" />
+          <option value="pymilvus" />
+          <option value="vanna" />
+          <option value="chainlit" />
+          <option value="starlette" />
+          <option value="pydantic" />
+          <option value="openai" />
+          <option value="python-dotenv" />
+          <option value="uvicorn" />
+          <option value="fastapi" />
+          <option value="Flask" />
+          <option value="aiofiles" />
+          <option value="aiohttp" />
+          <option value="literalai" />
+          <option value="SQLAlchemy" />
+          <option value="minio" />
+          <option value="PyMySQL" />
+          <option value="aiomysql" />
+          <option value="docling" />
+          <option value="pandas" />
+          <option value="huggingface-hub" />
+          <option value="plotly" />
+          <option value="requests" />
+          <option value="sqlparse" />
+          <option value="httpx" />
+          <option value="autogen-agentchat" />
+          <option value="autogen-ext" />
+          <option value="pytest" />
+          <option value="allure-python-commons" />
+          <option value="PyJWT" />
+          <option value="passlib" />
+          <option value="DBUtils" />
+          <option value="PyYAML" />
+          <option value="loguru" />
+          <option value="aerich" />
+          <option value="pydantic-settings" />
+          <option value="pyjwt" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

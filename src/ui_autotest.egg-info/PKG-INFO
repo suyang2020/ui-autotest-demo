@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ui-autotest
+Version: 0.1.0
+Summary: Web + App UI automation with Selenium/Appium + Pytest + Allure
+Requires-Python: >=3.10
+Requires-Dist: requests
+Requires-Dist: appium-python-client
+Requires-Dist: pytest
+Requires-Dist: allure-pytest
+Requires-Dist: selenium
+Requires-Dist: pyyaml
+Requires-Dist: pytest-html
+Requires-Dist: webdriver-manager
+Requires-Dist: requests

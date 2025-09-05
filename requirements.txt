@@ -1,0 +1,38 @@
+# UI自动化测试框架依赖包
+
+# 核心测试框架
+pytest>=7.2.0
+pytest-html>=3.1.0
+pytest-xdist>=3.1.0  # 并行执行支持
+
+# Allure报告
+allure-pytest>=2.12.0
+
+# Selenium WebDriver
+selenium>=4.8.0
+
+# Appium
+appium-python-client>=2.8.0
+
+# HTTP请求
+requests>=2.28.0
+
+# 数据处理
+PyYAML>=6.0
+openpyxl>=3.0.10  # Excel文件支持
+
+# 系统工具
+psutil>=5.9.0  # 进程管理
+
+# 开发工具（可选）
+black>=23.1.0  # 代码格式化
+flake8>=6.0.0  # 代码检查
+pytest-cov>=4.0.0  # 测试覆盖率
+
+# 其他工具库
+colorlog>=6.7.0  # 彩色日志
+click>=8.1.0  # 命令行工具
+
+# 特定版本要求（如果有兼容性问题）
+# urllib3>=1.26.0,<2.0
+# certifi>=2022.12.7

@@ -1,0 +1,31 @@
+[project]
+name = "ui-autotest"
+version = "0.1.0"
+description = "Web + App UI automation with Selenium/Appium + Pytest + Allure"
+requires-python = ">=3.10"
+
+
+dependencies =[
+    "requests",
+    "appium-python-client",
+    "pytest",
+    "allure-pytest",
+    "selenium",
+    "pyyaml",
+    "pytest-html",
+    "webdriver-manager",
+    "requests",
+]
+
+
+
+[tool.pytest.ini_options]
+addopts = "-sv --alluredir=./reports/allure_raw --clean-alluredir"
+markers = [
+"web: Web UI tests",
+"app: App UI tests", 
+"smoke: smoke suite",
+"regression: regression suite",
+"android: Android tests",
+"ios: iOS tests",
+]

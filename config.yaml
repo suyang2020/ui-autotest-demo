@@ -1,0 +1,35 @@
+allure:
+  report_dir: ./reports/allure_report
+  results_dir: ./reports/allure_raw
+appium:
+  server_url: http://localhost:4723
+  timeout: 30
+devices:
+  android:
+#    app: /data/app/com.weijingling.whale-1/base.apk   #修改为自己的被测应用路径
+    app: null  # 使用已安装的应用
+    appActivity: com.weijingling.whale/io.dcloud.PandoraEntryActivity  # 修改为自己的启动Activity
+    appPackage: com.weijingling.whale    # 修改为自己的应用包名
+    automationName: UiAutomator2
+    deviceName: 127.0.0.1:21543  # 这里是手机设备名字，通过adb devices命令可以查看，修改为自己的
+    fullReset: false
+    noReset: true
+    platformName: Android
+    platformVersion: '7.1'     # 这里要修改为自己手机的版本，手机设置--关于本机
+    resetKeyboard: true
+    unicodeKeyboard: true
+  ios:
+    app: null
+    automationName: XCUITest
+    bundleId: null
+    deviceName: iPhone 13
+    fullReset: false
+    noReset: true
+    platformName: iOS
+    platformVersion: '15.0'
+test:
+  default_timeout: 10
+  implicit_wait: 5
+  log_level: INFO
+  screenshot_dir: ./reports/screenshots
+  screenshot_on_failure: true
