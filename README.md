@@ -28,7 +28,7 @@
 
 ```bash
 git clone <repository-url>
-cd ui-autotest
+cd ui-autotest-demo
 ```
 
 ### 2. 创建Python虚拟环境
