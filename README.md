@@ -107,6 +107,9 @@ run_tests.bat smoke
 
 # 或直接使用Python
 python run_tests.py smoke
+
+# 运行登录功能
+python run_tests.py login
 ```
 
 ### 3. 查看测试报告
